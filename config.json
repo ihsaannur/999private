@@ -1,0 +1,95 @@
+{
+
+ "Account": {
+	"Username": "",
+     "Password": ""
+     },
+ "Target Profit": "10000",
+ "Target Win": "500000",
+ "Lose Target": "0",
+ "Reset If Target Profit": "OFF",
+ "Reset If Target Win": "OFF",
+ "Interval": "1",
+ "Config": [{
+
+     "Name Bet Set": "Mining",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "49.5",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "30",
+          "Max": "60"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "5",
+              "If Win": "3"
+            }
+        },
+     "If Win": "1.1",
+     "If Lose": "1.2",
+     "Reset If Win": "1",
+     "Reset If Profit": ".0000001",
+     "Interval": "0"
+     },{
+
+     "Name Bet Set": "1 - Mining Chance  45%",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "81",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "45",
+          "Max": "70"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "3",
+              "If Win": "2"
+            }
+        },
+     "If Win": "1.3",
+     "If Lose": "1.5",
+     "Reset If Win": "2",
+     "Reset If Profit": "0.00000001",
+     "Interval": "212"
+     },{
+
+     "Name Bet Set": "2 - Mining Chance 40 %",
+     "Base Bet": "0.02001111111111111",
+     "Max Bet": "OFF",
+     "Chance": "40",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "5",
+          "Max": "50"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "3",
+              "If Win": "1"
+            }
+        },
+     "If Win": "2",
+     "If Lose": "2",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.00000001",
+     "Interval": "212"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "510000000000000000",
+       "Wallet Address":   "xxxxxxxxx ",
+       "Amount": "100"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
+
+}
